@@ -16,7 +16,8 @@ struct SimpleStruct  /*< Описание структуры "SimpleStruct"*/
     }
     public void DisplayX() //! обьявление метода
     {
-        Console.WriteLine("The stored value is: {0}", xval);
+      //Console.WriteLine("The stored value is: {0}", xval); // До изменения
+        Console.WriteLine("The stored value is: 0");         // После изменения
     }
 }
 
