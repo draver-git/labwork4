@@ -24,13 +24,13 @@ class TestClass //! Обьявляется класс TestClass
     {
         TheStruct a = new TheStruct(); //! Создается экземпляр структуры TheStruct
         TheClass b = new TheClass();//! Создается экземпляр класса TheClass
-        a.x = 1;//! Элементу структуры а присваивается значение
-        b.x = 1;//! Элементу класса b присваивается значение
-        structtaker(a);//! Вызов функции класса TestClass
-        classtaker(b);//! Вызов функции класса TestClass
-        Console.WriteLine("a.x = {0}", a.x);
-        //! Вызов консоли и вывод результата
+        a.x = 0;//! Элементу структуры а присваивается значение
+        b.x = 0;//! Элементу класса b присваивается значение
+        structtaker(b);//! Вызов функции класса TestClass
+        classtaker(a);//! Вызов функции класса TestClass
         Console.WriteLine("b.x = {0}", b.x);
+        //! Вызов консоли и вывод результата
+        Console.WriteLine("a.x = {0}", a.x);
         //! Вызов консоли и вывод результата
     }
     
